@@ -27,7 +27,7 @@ const Sobre = () => {
     {id: 2, condition: isVisibleTwo},
     {id: 3, condition: isVisibleTree},
   ];
-  function closeModal(id) {
+  function closeModal() {
     setIsVisibleOne(false);
     setIsVisibleTwo(false);
     setIsVisibleTree(false);
@@ -60,7 +60,7 @@ const Sobre = () => {
           <TouchableOpacity
             style={styles.titleView}
             onPress={() => openModal(item.id)}
-            key={item.id}>
+            key={String(item.id)}>
             <Text style={styles.textTitle}>{item.text}</Text>
           </TouchableOpacity>
         );

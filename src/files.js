@@ -35,3 +35,32 @@ Depravação Total; Vocação eficaz; Expiação eficaz; Eleição Incondicional
 Dois sacramentos (Batismo e Eucaristia) e a Guarda do Domingo como "sábado cristão"`
   }
   ]
+
+
+  export const itemsDepartement = [
+   
+    { id:1,
+      title:'Homens',
+      text:'Chamados a liderar e servir',
+      img:require('../src/assests/men.jpg')
+
+    },
+    { id:2,
+      title:'Mulheres',
+      text:'Mulheres a serviço do Reino de Deus',
+      img:require('../src/assests/woman.jpg')
+
+    },
+    { id:3,
+      title:'Jovens',
+      text:'Crescendo na graça e no conhecimento de Deus',
+      img:require('../src/assests/youngs.jpg')
+    },
+    { id:4,
+      title:'Crianças',
+      text:'Dos pequeninos é o reino de Deus',
+      img:require('../src/assests/kids.jpg')
+
+    },
+
+  ]

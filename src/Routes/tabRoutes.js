@@ -25,6 +25,7 @@ const TabRoutes = () => {
       tabBarActiveBackgroundColor:'#4c956c',
       tabBarInactiveBackgroundColor:'#ffff',
       tabBarActiveTintColor:'#ffff',
+      tabBarInactiveTintColor:'#4c956c',
       
       
     }}

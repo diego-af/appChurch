@@ -43,7 +43,7 @@ const Home = ({navigation}) =>{
               </View>
             </TouchableOpacity>
 
-            <TouchableOpacity style={styles.buttons}>
+            <TouchableOpacity style={styles.buttons} onPress={()=> navigation.navigate('Departamentos')}>
               <Icon name="people" size={50} color="#ffff"/>
                 <View style={styles.nameText}>
                     <Text style={styles.text}>Departamentos</Text>
